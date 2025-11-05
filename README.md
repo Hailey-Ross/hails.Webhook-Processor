@@ -41,9 +41,16 @@ AZURACAST_WEBHOOK_KEY=your-secure-key
 DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/your-webhook-url
 ```
 
-### 3️⃣ Deploy & Connect to AzuraCast
+### 3️⃣ Edit AzuraCord
+Edit AzuraCord.php to include the path to the new .env file on your webserver:
+
+```sh
+$envFile = "/path/to/env/file/webhook.env"; //Update to your actual secure path that you have stored your .env file at
+```
+
+### 4️⃣ Deploy & Connect to AzuraCast
 ###### 🛑 DO NOT use the default your-secure-key value, if you have. Go back to the previous step. Seriously.
-Upload AzuraCast_Webhook.php to your web server.
+Upload AzuraCord.php to your web server.
 Set AzuraCast's Webhook URL to:
 
 ```sh
