@@ -49,7 +49,7 @@ $envFile = "/path/to/env/file/webhook.env"; //Update to your actual secure path 
 ```
 
 ### 4️⃣ Deploy & Connect to AzuraCast
-###### 🛑 DO NOT use the default your-secure-key value, if you have. Go back to the previous step. Seriously.
+###### 🛑 DO NOT use the default your-secure-key value, if you have. Go back to step 3. Seriously.
 Upload AzuraCord.php to your web server.
 Set AzuraCast's Webhook URL to:
 
